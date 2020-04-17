@@ -52,3 +52,23 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginModal .modal-content {
+  border-radius: 0rem !important; }
+  #loginModal .modal-content .modal-header {
+    background-color: #512DA8;
+    color: white; }
+    #loginModal .modal-content .modal-header .close {
+      color: #D1C4E9; }
+  #loginModal .modal-content .modal-body {
+    background-color: #D1C4E9; }
+
+#ReserveForm .modal-content {
+  border-radius: 0rem !important; }
+  #ReserveForm .modal-content .modal-header {
+    background-color: #512DA8;
+    color: white; }
+    #ReserveForm .modal-content .modal-header .close {
+      color: #D1C4E9; }
+  #ReserveForm .modal-content .modal-body {
+    background-color: #D1C4E9; }

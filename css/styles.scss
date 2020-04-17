@@ -11,6 +11,22 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+@mixin modal-style {
+    .modal-content{
+        border-radius: 0rem !important;
+        .modal-header{
+            background-color: $background-dark;
+            color: white;
+            .close{
+                color: $background-pale;
+            }
+        }
+        .modal-body{
+            background-color: $background-pale;
+        }
+    }
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -74,3 +90,21 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+#loginModal {
+    @include modal-style();
+}
+
+
+#ReserveForm{
+    @include modal-style();
+    }
+    
+// .modal{
+//     border-radius: 0em;
+//     .modal-header{
+//       background-color: #512DA8; 
+//       color: white;
+//     }
+// }
+  
